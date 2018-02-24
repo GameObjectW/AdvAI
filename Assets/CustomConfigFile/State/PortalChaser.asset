@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85d12121c860959478ccb89ebf0fe098, type: 3}
+  m_Name: PortalChaser
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: adcff22ca7770874a8ea8ff491bc16b6, type: 2}
+  Transitions:
+  - decision: {fileID: 11400000, guid: a928d744828d7af489b0250878eef37c, type: 2}
+    TrueState: {fileID: 11400000, guid: 763fa02f7dcf6394fbd20bac8faf1518, type: 2}
+    FalseState: {fileID: 11400000, guid: 1b72933d34944a24ba5ac0e9415fc444, type: 2}
+  SceneGizmoColor: {r: 0, g: 1, b: 0.21379304, a: 1}
